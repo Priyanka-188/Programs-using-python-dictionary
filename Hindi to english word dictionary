@@ -1,0 +1,12 @@
+
+engdict = {
+    "lattu": "bulb",
+    "kalam": "Pen",
+    "Jal": "Water",
+    "Iswar": "Diety",
+    "Krishna": "Friend"
+}
+print("Your options are :", engdict.keys())
+print("Enter the word whos meaning you want to know :", end=" ")
+a = input()
+print("The english translation of your word is : ",engdict.get(a))
